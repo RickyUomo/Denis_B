@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F2D1C9;
+}
+
+/* Navigation */
+.navigation-bar {
+    height: 70px;
+    width: 100%;
+}
+
+.navigation-bar ul {
+    margin-top: 10px;
+    margin-left: 130px;
+    font-weight: 900;
+    padding: 0px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.navigation-bar li {
+    list-style-type: none;
+    padding: 0px;
+    height: 24px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    display: inline;
+}
+
+.navigation-bar li a {
+    color: black;
+    font-size: 16px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    line-height: 70px;
+    padding: 5px 15px;
+    opacity: 0.7;
+    font-size: 22px;
+}
+
+#navigation-container {
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+
+.logo {
+    height: 80px;
+}
+
+/* Content */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+}
+
+.content,
+.content2 {
+    display: flex;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.content {
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.item1,
+.item2 {
+    border-radius: 25px;
+    width: 360px;
+    height: 260px;
+}
+
+.item3,
+.item4 {
+    border-radius: 25px;
+    width: 260px;
+    height: 260px;
+}
+
+.description {
+    font-family: 'Roboto', sans-serif;
+    color: #646464;
+    margin-left: 25px;
+    margin-right: 80px;
+}
+
+.description p {
+    font-family: 'Helvetica Neue Bold';
+    font-size: 14px;
+}
+
+.p-bold {
+    font-weight: 700;
+}
+
+.item5 {
+    border-radius: 25px;
+    width: 360px;
+    height: 280px;
+    margin-right: 15px;
+}
+
+.item6 {
+    border-radius: 25px;
+    width: 500px;
+    height: 280px;
+    margin-left: 20px;
+}
+
+/* pop-up */
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+    position: absolute;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+    text-align: center;
+}
