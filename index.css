@@ -13,7 +13,6 @@ body {
 .navigation-bar ul {
     margin-top: 10px;
     margin-left: 130px;
-    font-weight: 900;
     padding: 0px;
     text-align: center;
     display: inline-block;
@@ -31,13 +30,12 @@ body {
 
 .navigation-bar li a {
     color: black;
-    font-size: 16px;
+    font-size: 18px;
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     text-decoration: none;
     line-height: 70px;
     padding: 5px 15px;
     opacity: 0.7;
-    font-size: 22px;
 }
 
 #navigation-container {
@@ -55,34 +53,47 @@ body {
 
 .container {
     display: flex;
-    flex-direction: column;
-    margin-top: 60px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .content,
 .content2 {
     display: flex;
-    margin-left: 70px;
-    margin-right: 70px;
+    margin: auto;
 }
 
 .content {
+    flex-direction: column;
     justify-content: space-around;
-    margin-bottom: 20px;
+    padding-left: 60px;
 }
 
-.item1,
-.item2 {
+.item1 {
     border-radius: 25px;
-    width: 360px;
-    height: 260px;
+    width: 550px;
+    height: 330px;
 }
 
-.item3,
-.item4 {
+.col1 {
+    margin-right: 15px;
+}
+
+.col2 {
+    margin-right: 50px;
+}
+
+.r1,
+.r2,
+.r3,
+.r4,
+.r5,
+.r6 {
     border-radius: 25px;
-    width: 260px;
-    height: 260px;
+    width: 330px;
+    height: 200px;
+    margin-bottom: 5px;
 }
 
 .description {
@@ -90,6 +101,11 @@ body {
     color: #646464;
     margin-left: 25px;
     margin-right: 80px;
+    margin-top: 20px;
+}
+
+.description main {
+    margin-bottom: 55px;
 }
 
 .description p {
